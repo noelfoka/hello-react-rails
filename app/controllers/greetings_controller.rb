@@ -1,4 +1,3 @@
 class GreetingsController < ApplicationController
-  def random_greeting
-  end
+  def random_greeting; end
 end
