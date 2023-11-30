@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  gget '/random_greeting', to: 'greetings#random_greeting'
+  root 'greetings#random_greeting'
 end
